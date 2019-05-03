@@ -30,11 +30,11 @@ try:
             if len(str(e)) == 45:
                 print("当前路径: " + path + "\t" + " 不存在！")
             elif len(str(e)) == 37:
-                info = "当前路径 " + path + "\t" + "没权限！"
+                info = "当前路径: " + path + "\t" + "没权限！"
                 pathlist.append(str(info))
                 print(info)
             else :
-                info = "当前路径 " + path  + "\t" +  str(e)
+                info = "当前路径: " + path  + "\t" +  str(e)
                 pathlist.append(str(info))
                 print(info)
 except Exception as e:
